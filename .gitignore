@@ -19,4 +19,4 @@ InspiratonalQuotesAPI/InspirationalQuotes.Test/obj/
 
 # Ignore DB and Migrations
 InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/Migrations/
-InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quote.db
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quotes.db
