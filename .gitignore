@@ -1,0 +1,22 @@
+# Ignore .vs directory
+InspiratonalQuotesAPI/.vs
+
+# Ignore bin and obj directories
+InspiratonalQuotesAPI/InspirationalQuotes.API/bin/
+InspiratonalQuotesAPI/InspirationalQuotes.API/obj/
+
+InspiratonalQuotesAPI/InspirationalQuotes.Application/bin/
+InspiratonalQuotesAPI/InspirationalQuotes.Application/obj/
+
+InspiratonalQuotesAPI/InspirationalQuotes.Domain/bin/
+InspiratonalQuotesAPI/InspirationalQuotes.Domain/obj/
+
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/bin/
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/obj/
+
+InspiratonalQuotesAPI/InspirationalQuotes.Test/bin/
+InspiratonalQuotesAPI/InspirationalQuotes.Test/obj/
+
+# Ignore DB and Migrations
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/Migrations/
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quote.db
