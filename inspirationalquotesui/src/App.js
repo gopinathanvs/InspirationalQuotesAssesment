@@ -11,7 +11,6 @@ const App = () => {
       <h1 className='Insiprational-Quotes-heading'>Inspirational Quotes</h1>
       <div className="app-container">
         <div className="app-header">
-          {/* <h1>Would you like to share some inspirational quotes?</h1> */}
           <nav>
             <ul>
               <button> <li><Link to="/add-quote">Add Quote</Link></li> </button>

@@ -20,3 +20,6 @@ InspiratonalQuotesAPI/InspirationalQuotes.Test/obj/
 # Ignore DB and Migrations
 InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/Migrations/
 InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quotes.db
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quotes.db-shm
+InspiratonalQuotesAPI/InspirationalQuotes.Infrastructure/quotes.db-wal
+.gitignore.bak
