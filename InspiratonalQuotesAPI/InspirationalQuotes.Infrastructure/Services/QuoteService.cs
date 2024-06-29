@@ -108,7 +108,7 @@ namespace InspirationalQuotes.Infrastructure.Services
                 if (existingTag == null)
                 {
                     // Add new tag if not found
-                    var newTag = await _quoteRepository.AddTagAsync(tagName); // Assuming AddTagAsync adds a single tag
+                    var newTag = await _quoteRepository.AddTagAsync(tagName);
                     quote.QuoteTags.Add(new QuoteTag { TagId = newTag.Id });
                 }
                 else

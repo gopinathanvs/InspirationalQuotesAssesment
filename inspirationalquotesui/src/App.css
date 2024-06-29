@@ -1,0 +1,46 @@
+.app-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: black;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Insiprational-Quotes-heading{
+  display: block;
+  text-align: center;
+}

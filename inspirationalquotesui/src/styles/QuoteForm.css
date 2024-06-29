@@ -1,0 +1,92 @@
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.quote-form-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: black;
+
+}
+
+.quote-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffff;
+    box-shadow: 0 0 20px rgba(9, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.quote-form label {
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.quote-form input[type="text"],
+.quote-form textarea {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    font-family: inherit;
+
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.quote-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.tag-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag-input-container input[type="text"] {
+    flex: 1;
+}
+
+.tag-input-container button {
+    margin-left: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: violet;
+}
+
+.add-quotes-heading{
+
+    display: inline;
+}

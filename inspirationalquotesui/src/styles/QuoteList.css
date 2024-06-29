@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.quote-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    color: black;
+}
+
+.quote-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+.quote-author {
+    margin-left: 500px;
+    bottom: 10px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playwrite Australia NSW', cursive;
+}
+
+.quote-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.quote-item p {
+    margin-bottom: 10px;
+}
+
+.quote-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.quote-item li {
+    margin-bottom: 5px;
+}
+
+.quote-tags-edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.edit-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.edit-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.edit-buttons button {
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: #f0959e;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.tags-container {
+    max-width: 50vw;
+    text-align: start;
+}
+
+.tags-heading {
+    color: black;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+
+.tagList-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.tagList-ul li {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.tagList-ul li:hover {
+    border: 1px solid darkgreen;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

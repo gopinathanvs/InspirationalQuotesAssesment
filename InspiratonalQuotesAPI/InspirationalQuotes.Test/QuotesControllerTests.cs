@@ -111,7 +111,7 @@ namespace InspirationalQuotes.Test
         public async Task PostQuote_CreatesNewQuote_InvalidDTO()
         {
             // Arrange
-            var newQuotes = new List<QuoteDto>(); // Empty list of DTOs
+            var newQuotes = new List<QuoteDto>();
 
             _mockQuoteService.Setup(service => service.AddQuotesAsync(newQuotes))
                              .ThrowsAsync(new ArgumentException("Invalid DTOs")); // Simulate throwing ArgumentException

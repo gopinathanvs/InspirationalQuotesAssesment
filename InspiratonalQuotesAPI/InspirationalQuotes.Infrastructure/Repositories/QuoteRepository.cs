@@ -65,8 +65,12 @@ namespace InspirationalQuotes.Infrastructure.Repositories
 
             if (request.Tags != null && request.Tags.Count > 0)
             {
-                var normalizedTags = request.Tags.Select(t => t.ToLower()).ToList();
-                query = query.Where(q => q.QuoteTags.Any(qt => normalizedTags.Contains(qt.Tag.TagName.ToLower())));
+                var filteredTags = request.Tags.Where(t => !string.IsNullOrWhiteSpace(t)).ToList();
+                if (filteredTags.Count > 0)
+                {
+                    var normalizedTags = request.Tags.Select(t => t.ToLower()).ToList();
+                    query = query.Where(q => q.QuoteTags.Any(qt => normalizedTags.Contains(qt.Tag.TagName.ToLower())));
+                }
             }
 
             if (!string.IsNullOrEmpty(request.Text))
